@@ -1,3 +1,4 @@
+import 'package:ch9_gridview/widgets/gridview_builder.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -16,8 +17,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: SafeArea(
-        child: Container(),
+      body: const SafeArea(
+        child: GridViewBuilderWidget(),
       ),
     );
   }
